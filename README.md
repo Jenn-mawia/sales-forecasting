@@ -34,10 +34,13 @@ The **Random Forest Regressor** performed really well with a **lower RMSE(3867)*
 
 **The RMSE(7563)** for the **LightGBM Regressor model** is slightly higher than the random forest model but lower than the linear regression model. It basically performs better than the linear regression model with **R^2 OF 0.89** but the random forest model exhibits signs of overfitting.
 
+ARIMA Modelling was also done but the model kept crashing because of insufficient RAM. 
+
 ## TO DO
 - Perform regression modelling with XGBOOST and compare the performance results with the other models.
 - Perform hyper parameter tuning to improve model performance.
 - Compare the feature importances for each model and select the best model based on the most important features. 
+- Complete ARIMA Modelling.
 
 ## Complete Setup / Installation Requirements
 To open and view the notebook, you will need Jupyter Notebooks or Google Colaboratory. Do have a look at it.😊
